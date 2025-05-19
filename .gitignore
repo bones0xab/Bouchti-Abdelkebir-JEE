@@ -1,14 +1,33 @@
-# Backend
-Backend/target/
-Backend/*.jar
-Backend/.idea/
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Frontend
-Frontend/node_modules/
-Frontend/dist/
-Frontend/.angular/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# General
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
-*.log
-.env
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
